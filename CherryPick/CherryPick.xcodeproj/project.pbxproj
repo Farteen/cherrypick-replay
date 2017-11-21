@@ -16,6 +16,7 @@
 		C32CEC6F1FC408ED00BF1911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32CEC6E1FC408ED00BF1911 /* main.m */; };
 		C32CEC791FC408ED00BF1911 /* CherryPickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32CEC781FC408ED00BF1911 /* CherryPickTests.m */; };
 		C32CEC841FC408ED00BF1911 /* CherryPickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32CEC831FC408ED00BF1911 /* CherryPickUITests.m */; };
+		C32CEC931FC40BCA00BF1911 /* FTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C32CEC921FC40BCA00BF1911 /* FTObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C32CEC7F1FC408ED00BF1911 /* CherryPickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherryPickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32CEC831FC408ED00BF1911 /* CherryPickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CherryPickUITests.m; sourceTree = "<group>"; };
 		C32CEC851FC408ED00BF1911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32CEC911FC40BCA00BF1911 /* FTObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTObject.h; sourceTree = "<group>"; };
+		C32CEC921FC40BCA00BF1911 /* FTObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				C32CEC5D1FC408ED00BF1911 /* AppDelegate.m */,
 				C32CEC5F1FC408ED00BF1911 /* ViewController.h */,
 				C32CEC601FC408ED00BF1911 /* ViewController.m */,
+				C32CEC911FC40BCA00BF1911 /* FTObject.h */,
+				C32CEC921FC40BCA00BF1911 /* FTObject.m */,
 				C32CEC621FC408ED00BF1911 /* Main.storyboard */,
 				C32CEC681FC408ED00BF1911 /* Assets.xcassets */,
 				C32CEC6A1FC408ED00BF1911 /* LaunchScreen.storyboard */,
@@ -269,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32CEC611FC408ED00BF1911 /* ViewController.m in Sources */,
+				C32CEC931FC40BCA00BF1911 /* FTObject.m in Sources */,
 				C32CEC5E1FC408ED00BF1911 /* AppDelegate.m in Sources */,
 				C32CEC6F1FC408ED00BF1911 /* main.m in Sources */,
 				C32CEC671FC408ED00BF1911 /* CherryPick.xcdatamodeld in Sources */,
